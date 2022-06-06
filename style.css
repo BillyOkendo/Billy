@@ -1,30 +1,35 @@
 body {
     background-image: url(Image6.png);
     background-repeat: no-repeat;
-    background-size: 1500px 1300px;
+    background-size: 1600px 1300px;
 }
-  
+  h2{
+    text-align: center;
+  }
   .one{
       text-align: center;
       background: rgb(27, 172, 167);
       margin-top: 0%;
       padding-bottom: 1%;
-      backface-visibility: visible;
       opacity: 0.7;
   }
   #two div{
-    float: left;
+    background: rgb(94, 183, 220);
+    display:inline-block ;
     text-align: center;
-    width: 50%;
-    text-align: center;
-
+    bottom: 0;
+    width: 106%;
+    
+    opacity: 0.5;
   }
   img{
+    margin: 120px;
       opacity: 0.8;
       height: 200px;
       width: 400px;
   }
   .image1{
+    
       width: 25%;
       float:left;
 height: 700px;
@@ -35,7 +40,12 @@ height: 700px;
      width: 40%;
   }
   .image3{
+    position:relative; bottom:70px;
     height: 700px;
     float: right;
 width: 25%;
+margin-right: 80px;
+  }
+  figcaption{
+    text-align: center;
   }
